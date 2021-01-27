@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="memberMapper">
+	<insert id="memberRegister">
+		INSERT INTO BURGER_MEMBER
+					VALUES ( #{userId}
+							,#{userPwd}
+							,#{userName}
+							,#{userBirth}
+							,#{userEmail}
+							,#{userAddress}
+							,#{userPhone}
+							,#{userDetailAddress}
+							,#{userExtraAddress} )
+	</insert>
+	<select id="memberLogin" resultType="co.kr.vo.MemberVO">
+		SELECT  USERID,
+				USERPWD,
+				USERNAME,
+				USERBIRTH,
+				USEREMAIL,
+				USERADDRESS,
+				USERPHONE,
+				USEREXTRAADDRESS,
+				USERDETAILADDRESS
+				FROM BURGER_MEMBER
+				WHERE USERID = #{userId}
+					AND USERPWD = #{userPwd}
+	</select>
+	<update id="memberUpdate">
+		UPDATE BURGER_MEMBER
+			SET USERPWD = #{userPwd},
+				USERNAME = #{userName},
+				USERBIRTH = #{userBirth},
+				USEREMAIL = #{userEmail},
+				USERADDRESS = #{userAddress},
+				USERADDRESS = #{userDetailAddress},
+				USERADDRESS = #{userExtraAddress},
+				USERPHONE = #{userPhone}
+			WHERE USERID = #{userId}
+	</update>
+	<delete id="memberDelete">
+		DELETE BURGER_MEMBER
+			WHERE USERID = #{userId}
+				AND  USERPWD = #{userPwd}
+	</delete>
+	<!-- 비밀번호 확인 -->
+	<select  id="pwdChk" resultType="int">
+		SELECT COUNT(*) FROM BURGER_MEMBER
+			WHERE USERID = #{userId}
+				AND USERPWD = #{userPwd}
+	</select>
+	<!-- 아이디 중복체크 -->
+	<select id="idChk" resultType="int">
+		SELECT COUNT(*) FROM BURGER_MEMBER
+			WHERE USERID = #{userId}
+	</select>
+</mapper>

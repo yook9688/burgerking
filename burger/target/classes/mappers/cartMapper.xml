@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="cartMapper">
+	<!-- 세트메뉴 및 단품 주문 시 -->
+	<insert id="addCart1">
+		INSERT INTO BURGER_CART (CARTNUM,
+								 USERID,
+								 PCODE,
+								 DRINK1,
+								 SIDE1,
+								 PRICE,
+								 PNAME,
+								 P_OPTION)
+						 VALUES (cartnum_seq.nextval,
+						 		 #{userId},
+						 		 #{pCode},
+						 		 #{drink1},
+						 		 #{side1},
+						 		 #{price},
+						 		 #{pName},
+						 		 #{p_option})
+	</insert>
+	<!-- 할인팩 주문 시 -->
+	<insert id="addCart2">
+		INSERT INTO BURGER_CART (CARTNUM,
+								 USERID,
+								 PCODE,
+								 DRINK1,
+								 DRINK2,
+								 SIDE1,
+								 SIDE2,
+								 PRICE,
+								 PNAME,
+								 P_OPTION)
+						 VALUES (cartnum_seq.nextval,
+						 		 #{userId},
+						 		 #{pCode},
+						 		 #{drink1},
+						 		 #{drink2},
+						 		 #{side1},
+						 		 #{side2},
+						 		 #{price},
+						 		 #{pName},
+						 		 #{p_option})
+	</insert>
+	<select  id="cartList" resultType="co.kr.vo.CartVO">
+		SELECT c.CARTNUM,
+			   c.USERID,
+			   c.PCODE,
+			   c.ADDDATE,
+			   c.PRICE,
+			   c.PNAME,
+			   c.DRINK1,
+			   c.DRINK2,
+			   c.SIDE1,
+			   c.SIDE2,
+			   p.PURL
+	   		FROM BURGER_CART c 
+	   		JOIN BURGER_PRODUCT p 
+	   		ON c.PCODE = p.PCODE 
+	   		WHERE c.USERID = #{userId} 
+	</select>
+	<!-- 카트 목록 제거 -->
+	<delete id="cartDelete">
+		DELETE BURGER_CART
+			WHERE CARTNUM = #{cartNum}
+			AND USERID = #{userId}
+	</delete>
+	<!-- 주문 후 장바구니 초기화 -->
+	<delete id="cartClear">
+		DELETE BURGER_CART
+			WHERE USERID = #{userId}
+	</delete>
+</mapper>
