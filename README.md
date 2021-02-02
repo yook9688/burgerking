@@ -119,7 +119,7 @@ c:foreach문으로 나열하였습니다.
 ## 메뉴 상세보기
 <img src="https://github.com/yook9688/burgerking/blob/main/readme_img/dilivery_detail1.JPG" width="1000" height="600">
  - 할인팩 상품 선택 시
-<img src="https://github.com/yook9688/burgerking/blob/main/readme_img/dli.JPG" width="1000" height="600">
+<img src="https://github.com/yook9688/burgerking/blob/main/readme_img/dilivery_detail3.JPG" width="1000" height="600">
  - 상품 옵션 선택 전 (기본값)
 <img src="https://github.com/yook9688/burgerking/blob/main/readme_img/dilivery_detail2.JPG" width="1000" height="600">
  - 상품 옵션 선택 후
