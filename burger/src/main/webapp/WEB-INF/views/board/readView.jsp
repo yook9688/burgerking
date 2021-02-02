@@ -77,10 +77,11 @@
 							</div>
 						</div>			
 						<div class="btn_box">
-							<!-- <input type="submit" class="update_btn" value="수정"/>
-							<input type="submit" class="delete_btn" value="삭제"/> --> <!-- 관리자페이지로 넘길것 -->
+							<input type="submit" class="update_btn" value="수정"/>
+							<input type="submit" class="delete_btn" value="삭제"/> <!-- 관리자페이지로 넘길것 -->
 							<input type="submit" class="list_btn" value="목록"/>						
 						</div>
+						
 					</div>
 				</div>
 			</div>

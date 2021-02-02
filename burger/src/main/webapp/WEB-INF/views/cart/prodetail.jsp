@@ -124,7 +124,7 @@
                     	<div class="product_bg">
 	                    	<div class="product_intro">
 	                    		<div class="img_box">
-	                    			<img src="../${product.pUrl}" alt="${product.pName}사진" />
+	                    			<img src="../resources/${product.pUrl}" alt="${product.pName}사진" />
 	                    		</div>
 	                    		<h2 class="product_name">${product.pName}</h2>
 	                    		<div class="description_box">

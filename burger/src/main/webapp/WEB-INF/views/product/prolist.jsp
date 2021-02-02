@@ -86,7 +86,7 @@
 	                            <li class="menu_list col4">
 	                                <a href="prodetail?cate=${product.pCategory}&c=${product.pCode}">
 	                                    <div class="img_box">
-	                                    	<img src="../${product.pUrl}" alt="<c:out value="${product.pName}"/>" />
+	                                    	<img src="../resources/${product.pUrl}" alt="<c:out value="${product.pName}"/>" />
 	                                    </div>
 	                                    <div class="img_name">
 	                                        <p><c:out value="${product.pName}"/></p>

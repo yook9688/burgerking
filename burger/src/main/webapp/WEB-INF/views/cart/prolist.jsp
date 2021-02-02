@@ -33,7 +33,7 @@
             <div class="con_wrap">
                 <div class="content_box">
                     <div class="subtit_wrap">
-                        <p>메뉴소개</p>
+                        <p>딜리버리</p>
                         <ul>
                             <li class="menu_tit_list"><a class="menu_tit" href="prolist?cate=ss" >스페셜&할인팩</a></li>
                             <li class="menu_tit_list"><a class="menu_tit" href="prolist?cate=p" >프리미엄</a></li>
@@ -85,7 +85,7 @@
 	                            <li class="menu_list col4">
 	                                <a href="prodetail?cate=<c:out value="${product.pCategory}"/>&c=<c:out value="${product.pCode}"/>">
 	                                    <div class="product_box">
-	                                    	<img src="../<c:out value="${product.pUrl}"/>" alt="<c:out value="${product.pName}"/>" />
+	                                    	<img src="../resources/<c:out value="${product.pUrl}"/>" alt="<c:out value="${product.pName}"/>" />
 	                                    </div>
 	                                    <div class="product_name">
 	                                        <p><c:out value="${product.pName}"/></p>

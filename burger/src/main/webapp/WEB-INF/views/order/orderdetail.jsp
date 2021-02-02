@@ -57,7 +57,7 @@ $(document).ready(function(){
                         <li class="order_list">
                         	<div class="product_box">
                                 <div class="img_box">
-                                	<img src="../${list.pUrl}" alt="${list.pName}" />
+                                	<img src="../resources/${list.pUrl}" alt="${list.pName}" />
                                 </div>
                                 <div class="product_desc_box">
 									<div class="p_name">

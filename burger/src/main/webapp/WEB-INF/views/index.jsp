@@ -94,7 +94,7 @@
                         <h2>매장찾기</h2>
                         <p>고객님 주변에 있는 버거킹을 찾아보세요!</p>
                         <div class="searchshop_btn">
-                            <a href="#"><p>매장찾기</p></a>
+                            <a href="searchstore"><p>매장찾기</p></a>
                         </div>
                         <ul class="shop_catelist">
                             <li>
