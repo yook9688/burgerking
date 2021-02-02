@@ -9,7 +9,8 @@ Spring MVC2모델을 이용한 버거킹사이트를 만들어 보았습니다.
 
 
 * 메인페이지
-![Alt text](/path/to/img.jpg width="800" height="500")
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+#######[코드보기](/path/to/img.jpg)
 
 ```
 메인페이지 이미지 배너를 사용하여 신제품 및 행사상품 마케팅에 도움이 될 수 있도록 하였습니다.
@@ -17,7 +18,8 @@ JQuery의 anumate()를 사용하였고 setInterval을 이용하여 3초마다 �
 ```
 
 * 로그인
-![Alt text](/path/to/img.jpg width="800" height="500")
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+#######[코드보기](/path/to/img.jpg)
 
 ```
 로그인페이지입니다. 해당 form에 input에 있는 파라미터들을
@@ -25,8 +27,9 @@ select문을 이용하여 검색 후 일치하면 로그인이 될 수 있도록
 ```
 
 * 회원가입
-![Alt text](/path/to/img.jpg width="800" height="500")
-![Alt text](/path/to/img.jpg width="800" height="500")
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+#######[코드보기](/path/to/img.jpg)
 
 ```
 회원가입폼에 해당하는 input에 값들이 입력이 되어있지않으면
@@ -35,7 +38,8 @@ jQuery를 이용하여 데이터 검증을 할 수 있도록 구현하였고
 ```
 
 * 회원정보수정
-![Alt text](/path/to/img.jpg width="800" height="500")
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+#######[코드보기](/path/to/img.jpg)
 
 ```
 Select문을 이용하여 session값에 해당하는 회원의 정보를 불러온 다음
@@ -44,7 +48,8 @@ Select문을 이용하여 session값에 해당하는 회원의 정보를 불러�
 ```
 
 * 회원탈퇴
-![Alt text](/path/to/img.jpg width="800" height="500")
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+#######[코드보기](/path/to/img.jpg)
 
 ```
 회원정보수정 창에서 회원탈퇴 시 현재 사용자가 사용하고있는 비밀번호를 select문으로
@@ -52,8 +57,9 @@ Select문을 이용하여 session값에 해당하는 회원의 정보를 불러�
 ```
 
 * 상품소개
-![Alt text](/path/to/img.jpg width="800" height="500")
-![Alt text](/path/to/img.jpg width="800" height="500")
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+#######[코드보기](/path/to/img.jpg)
 
 ```
 현재 기업에서 판매하고있는 제품들을 소개하는 페이지입니다. 
@@ -62,7 +68,8 @@ Controller에서 @RequestParam을 이용하여 각 카테고리의 해당하는
 ```
 
 * 상품상세보기
-![Alt text](/path/to/img.jpg width="800" height="500")
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+#######[코드보기](/path/to/img.jpg)
 
 ```
 메뉴목록에서 자신이 궁금한 메뉴를 클릭하면 해당하는 제품코드를 @RequestParam으로 받아와
@@ -70,7 +77,8 @@ Controller에서 Select문을 이용하여 검색해서 출력되도록 제작�
 ```
 
 * 매장소개
-![Alt text](/path/to/img.jpg width="800" height="500")
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+#######[코드보기](/path/to/img.jpg)
 
 ```
 매장소개페이지를 제작해보았습니다. KaKao 지도 API를 사용하였고 서울시 내에 있는
@@ -78,7 +86,8 @@ Controller에서 Select문을 이용하여 검색해서 출력되도록 제작�
 ```
 
 * 브랜드스토리
-![Alt text](/path/to/img.jpg width="800" height="500")
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+#######[코드보기](/path/to/img.jpg)
 
 ```
 회사의 연혁들을 설명해놓은 페이지입니다.
@@ -87,7 +96,8 @@ JQuery의 hasClass를 이용하여 탭버튼을 구현해서
 ```
 
 * 딜리버리버튼 클릭시(비로그인)
-![Alt text](/path/to/img.jpg width="800" height="500")
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+#######[코드보기](/path/to/img.jpg)
 
 ```
 header부분에 딜리버리주문 버튼을 누를때 session을 이용하여 로그인이 안되어있으면
@@ -102,9 +112,11 @@ location.href를 이용해 로그인페이지로 넘어가게 구현했습니다
 ```
 
 * 메뉴 상세보기
-![Alt text](/path/to/img.jpg width="800" height="500")
-![Alt text](/path/to/img.jpg width="800" height="500")
-![Alt text](/path/to/img.jpg width="800" height="500")
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+#######[코드보기](/path/to/img.jpg)
+
 
 ```
 햄버거를 주력 상품으로 판매를 하다보니 
@@ -116,7 +128,8 @@ form input에 소비자가 선택한 상품으로 value가 변환되어
 ```
 
 * 장바구니
-![Alt text](/path/to/img.jpg width="800" height="500")
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+#######[코드보기](/path/to/img.jpg)
 
 ```
 소비자가 메뉴를 옵션까지 선택하면 해당하는 정보가 장바구니 테이블에 생성됩니다.
@@ -124,8 +137,9 @@ form input에 소비자가 선택한 상품으로 value가 변환되어
 ```
 
 * 주문정보입력
-![Alt text](/path/to/img.jpg width="800" height="500")
-![Alt text](/path/to/img.jpg width="800" height="500")
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+#######[코드보기](/path/to/img.jpg)
 
 ```
 주소 및 연락처 등 기본사항은 지금 로그인한 사용자의 정보를 기본값으로 처리했습니다.
@@ -137,8 +151,9 @@ form input에 소비자가 선택한 상품으로 value가 변환되어
 
 
 * 주문목록
-![Alt text](/path/to/img.jpg width="800" height="500")
-![Alt text](/path/to/img.jpg width="800" height="500")
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+<img src="https://github.com/yoonjaesub/shopping_project/blob/main/img/index.PNG" width="800 " height="500">
+#######[코드보기](/path/to/img.jpg)
 
 ```
 주문목록에서는 데이터베이스에서 Select문으로 주문 정보들을
