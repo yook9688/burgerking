@@ -1,4 +1,4 @@
-#Spring MVC2모델을 이용하여 버거킹사이트를 제작했습니다.
+# Spring MVC2 버거킹 프로젝트
 
 ## - IDE : Eclipse enterpise 2020-03 + Spring
 ## - server : tomcat9
