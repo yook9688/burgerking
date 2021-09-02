@@ -3,7 +3,7 @@
 ## - IDE : Eclipse enterpise 2020-03 + Spring
 ## - server : tomcat9
 ## - DB : oracle 11g, mybatis
-## - API : 다음 API, 아임포트API (카카오페이), 카카오 지도API
+## - API : 다음 주소API, 아임포트API (카카오페이), 카카오 지도API
 ## - 프로젝트 제작기간 : 2020.11 ~ 2021.01   
 <br/><br/><br/><br/>
 ## 메인페이지
